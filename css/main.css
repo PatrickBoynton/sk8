@@ -1,5 +1,7 @@
 body {
   box-sizing: border-box;
+  background-image: url("../images/bg.jpg");
+  background-size: contain;
 }
 
 li {
@@ -19,6 +21,12 @@ a {
   color: white;
   padding: 8px 50px;
   text-transform: uppercase;
+}
+
+.top-image {
+  width: 100%;
+  height: 300px;
+  border: 8px solid #fff;
 }
 
 textarea {
