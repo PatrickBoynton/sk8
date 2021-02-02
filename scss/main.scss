@@ -31,9 +31,13 @@ article p {
   border: 8px solid #fff;
 }
 .test {
-  transform: rotate(90deg);
-  width: 50%;
+  transform: rotate(90deg) translateY(-100%);
+  transform-origin: top left;
+  width: 100%;
   height: 20%;
+}
+.test img {
+  width: 475px;
 }
 .article-continue {
   color: #A63534;
@@ -59,5 +63,8 @@ input{
   float: right;
 }
 .sk8ers{
-  height: 40px;
+  // height: 40px;
+}
+.cards{
+  max-height: 50px;
 }
