@@ -46,7 +46,7 @@ article p {
 }
 
 .test img {
-  width: 475px;
+  width: 200px;
 }
 
 .article-continue {
@@ -79,6 +79,10 @@ input {
 
 .cards {
   max-height: 50px;
+}
+
+.skateboards {
+  height: 110px;
 }
 
 /*# sourceMappingURL=main.css.map */
