@@ -7,6 +7,10 @@ body{
   background-image: url("../images/bg.jpg");
   background-size: contain;
 }
+h1{
+  color: yellow;
+  z-index: 3;
+}
 li{
   list-style: none;
 }
@@ -38,16 +42,15 @@ input{
   border: 8px solid #fff;
 }
 .test {
+  height: 271px;
+  width: 97%;
+}
+.skateboards{
   transform: rotate(90deg) translateY(-100%);
   transform-origin: top left;
-  width: 100%;
-  height: 20%;
+  height: 39%;
+  width: 96px;
 }
-.test{
-  width: 100%;
-  margin-left: 50%;
-}
-
 .article-continue {
   color: #A63534;
   font-weight: bold;
@@ -82,13 +85,12 @@ input{
 .cards{
   max-height: 50px;
 }
-.skateboards{
-  height: 50px;
-  width: 100%;
-}
 .sk8ers{
-  border: 4px solid white;
+  // border: 4px solid white;
 }
-.two-rows{
-  height: 100%;
+.skate-test{
+  // border: 20px solid red;
+}
+.row{
+  background-color: white;
 }
