@@ -9,6 +9,11 @@ body {
   background-size: contain;
 }
 
+img {
+  margin: 0;
+  object-fit: cover;
+}
+
 h1 {
   color: yellow;
   z-index: 3;
@@ -20,6 +25,7 @@ li {
 
 a {
   text-decoration: none;
+  color: white;
 }
 
 article {
@@ -53,14 +59,15 @@ input {
 }
 
 .test {
-  height: 271px;
-  width: 97%;
+  height: 293px;
+  width: 102%;
+  background-color: white;
 }
 
 .skateboards {
   transform: rotate(90deg) translateY(-100%);
   transform-origin: top left;
-  height: 39%;
+  height: 28%;
   width: 96px;
 }
 
@@ -106,8 +113,9 @@ input {
   max-height: 50px;
 }
 
-.row {
-  background-color: white;
+.sk8ers {
+  border: 6px solid white;
+  padding: 0 !important;
 }
 
 /*# sourceMappingURL=main.css.map */
